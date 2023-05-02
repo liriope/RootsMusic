@@ -1,0 +1,248 @@
+body {
+  background-color: #100c0c;
+  font-family: Baskerville;
+  font-size: 16px;
+}
+
+.container-fluid {
+  width: 100%
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar-brand {
+  width: 100%;
+  font-family: Baskerville, serif;
+  font-size: 1.75em;
+}
+
+.nav-item {
+  font-family: Baskerville, serif;
+  font-size: 1.75em;
+}
+
+.nav-item.active {
+  border: 1px;
+  border-radius: 5px;
+  padding: 5px;
+  font-style: italic;
+}
+
+.nav-item:not(.active) {
+  border: 1px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+h1, h2, h3, p {
+     color: #e0bc8c;
+}
+
+h1 {
+  font-family: Baskerville, serif;
+  font-size: 1.75em;
+  margin-top: 1.75em;
+  margin-bottom: 1em;
+}
+
+h2:first-child {
+  margin-top: 0em;
+}
+
+h2:not(:first-child) {
+  margin-top: 2em;
+}
+
+h2 {
+     font-family: Baskerville, serif;
+     font-size: 1.75em;
+     margin-bottom: 1em;
+}
+
+h3 {
+     font-family: Baskerville, serif;
+     font-size: 1em;
+     font-variant: small-caps;
+}
+
+p {
+     font-family: Trebuchet MS, sans-serif;
+     font-size: 1em;
+     line-height: 1.75em;
+}
+
+.special-paragraph {
+  font-size: .75em;
+  font-family: Trebuchet MS, sans-serif;
+  line-height: 1.75em;
+}
+
+p:first-child {
+     text-indent: 0;
+}
+
+p:not(:first-child) {
+     text-indent: 2.5em;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0em;
+  padding: 0;
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 1em;
+  color: #e0bc8c !important;
+}
+
+.hanging-indent {
+     text-indent: -2.5em !important;
+     margin-left: 2.5em !important;
+}
+
+.first-sentence-small-caps {
+  /*font-family: Baskerville, serif;*/ font-variant: small-caps;
+}
+
+/*.drop-cap:first-letter {
+  float: left;
+  font-size: 4em;
+  margin-right: 1em;
+  font-family: Rosewood Std Regular, serif;
+}
+
+.drop-cap {
+  text-indent: 1.5em;
+}*/
+
+button:focus {
+  outline-color: red !important; /* replace with your desired color */
+}
+
+
+.btn-block {
+  width: 100%;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+  border-color: black;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  border-color: black;
+  box-shadow: none;
+}
+
+.btn-primary {
+  font-family: Baskerville, serif; /* change font family */
+  font-style: italic; /* add font-style: italic */
+  font-size: 1.75em;
+  background-color: #e0bc8c;
+  color: #100c0c;
+  margin-top: 5px;
+  border-color: #e0bc8c;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: none;
+  border-bottom: 2px transparent;
+  border-width: 1px;
+  text-decoration: none;
+}
+
+.btn-primary:focus {
+  border-color: black;
+  outline-color: black;
+  background-color: black;
+  box-shadow: none;
+}
+.btn-primary:hover {
+  border-color: black;
+  background-color: black;
+  outline-color: black;
+}
+.btn-primary:active {
+  background-color: black !important;
+  border-color: black;
+  outline-color: black;
+}
+
+.btn-secondary.btn-square {
+  border: 1px solid #e0bc8c;
+  border-radius: 0;
+  padding: 10px 20px;
+  font-family: Baskerville, serif;
+  font-style: italic;
+  background-color: transparent;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: .2em;
+}
+
+a:visited{
+  color: black;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .btn-primary {
+    font-size: 1.75em;
+  }
+  h1 {
+    font-size: 3em !important;
+  }
+  #main-title-text {
+    display: none;
+  }
+  .sticky-div {
+  position: sticky;
+  top: 1em;
+}
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 1.75em !important;
+  }
+  body {
+    font-size: 16px;
+  }
+  p {
+    font-size: 0.9em;
+    line-height: 1.3;
+    margin: 0.5em 0;
+  }
+  #intro-video-window {
+    display:none;
+  }
+}
+
+blockquote::before {
+  content: open-quote;
+}
+
+blockquote::after {
+  content: close-quote;
+}
+
+.social-icons a {
+  font-size: 1.75em;
+  color: #e0bc8c;
+  padding: 5px;
+}
