@@ -205,6 +205,12 @@ video {
   }
 }
 
+@media (max-width: 576px) {
+	.drop-cap {
+		display: none;
+	}
+}
+
 blockquote::before {
   content: open-quote;
 }
