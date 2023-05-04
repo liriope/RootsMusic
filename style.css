@@ -1,7 +1,7 @@
 body {
   background-color: #000000;
   font-family: Baskerville;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .container-fluid {
@@ -175,7 +175,7 @@ video {
     font-size: 1.75em !important;
   }
   body {
-    font-size: 16px;
+    font-size: 18px;
   }
   p {
     font-size: 0.9em;
