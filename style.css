@@ -112,8 +112,8 @@ ul {
 }
 
 .hanging-indent {
-     text-indent: -2.5em !important;
-     margin-left: 2.5em !important;
+     text-indent: -2em !important;
+     margin-left: 4em !important;
 }
 
 .first-sentence-small-caps {
