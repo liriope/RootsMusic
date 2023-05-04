@@ -187,7 +187,6 @@ video {
   p {
     font-size: 1.25em;
     line-height: 2.25;
-    margin: 0.5em 0;
   }
   #intro-video-window {
     display:none;
