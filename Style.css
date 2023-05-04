@@ -1,5 +1,5 @@
 body {
-  background-color: #100c0c;
+  background-color: #000000;
   font-family: Baskerville;
   font-size: 16px;
 }
@@ -13,32 +13,47 @@ body {
   height: auto;
 }
 
-.navbar-brand {
-  width: 100%;
-  font-family: Baskerville, serif;
-  font-size: 1.75em;
+.nav-button {
+  font-size: 3em;
+  line-height: 2em;
+  color: #dbc2a5;
+  background-color: transparent;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-style: none;
+  padding: .5em;
+  width: 200px;
+  height: 150px;
 }
 
-.nav-item {
-  font-family: Baskerville, serif;
+.nav-button-secondary {
   font-size: 1.75em;
-}
-
-.nav-item.active {
-  border: 1px;
-  border-radius: 5px;
-  padding: 5px;
   font-style: italic;
+  line-height: 2em;
+  color: #000000;
+  background-color: #dbc2a5;
+  background-size: cover;
+  border-style: none;
+  border-radius: 0;
+  height: auto;
 }
 
-.nav-item:not(.active) {
-  border: 1px;
-  border-radius: 5px;
-  padding: 5px;
+.nav-button-secondary:hover {
+  color: #dbc2a5;
+  background-color: #000000;
+}
+
+.drop-cap {
+  z-index: -10;
+}
+
+.main-index {
+  z-index: 1;
 }
 
 h1, h2, h3, p {
-     color: #e0bc8c;
+     color: #dbc2a5;
 }
 
 h1 {
@@ -48,18 +63,11 @@ h1 {
   margin-bottom: 1em;
 }
 
-h2:first-child {
-  margin-top: 0em;
-}
-
-h2:not(:first-child) {
-  margin-top: 2em;
-}
-
 h2 {
      font-family: Baskerville, serif;
      font-size: 1.75em;
      margin-bottom: 1em;
+     margin-top: 2em;
 }
 
 h3 {
@@ -72,6 +80,8 @@ p {
      font-family: Trebuchet MS, sans-serif;
      font-size: 1em;
      line-height: 1.75em;
+     margin-top: 3em;
+     margin-bottom: 3em;
 }
 
 .special-paragraph {
@@ -94,7 +104,7 @@ ul {
   padding: 0;
   font-family: Trebuchet MS, sans-serif;
   font-size: 1em;
-  color: #e0bc8c !important;
+  color: #dbc2a5 !important;
 }
 
 .hanging-indent {
@@ -117,67 +127,6 @@ ul {
   text-indent: 1.5em;
 }*/
 
-button:focus {
-  outline-color: red !important; /* replace with your desired color */
-}
-
-
-.btn-block {
-  width: 100%;
-}
-
-.btn-primary:not(:disabled):not(.disabled):active {
-  border-color: black;
-}
-
-.btn-primary:not(:disabled):not(.disabled):active:focus {
-  border-color: black;
-  box-shadow: none;
-}
-
-.btn-primary {
-  font-family: Baskerville, serif; /* change font family */
-  font-style: italic; /* add font-style: italic */
-  font-size: 1.75em;
-  background-color: #e0bc8c;
-  color: #100c0c;
-  margin-top: 5px;
-  border-color: #e0bc8c;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: none;
-  border-bottom: 2px transparent;
-  border-width: 1px;
-  text-decoration: none;
-}
-
-.btn-primary:focus {
-  border-color: black;
-  outline-color: black;
-  background-color: black;
-  box-shadow: none;
-}
-.btn-primary:hover {
-  border-color: black;
-  background-color: black;
-  outline-color: black;
-}
-.btn-primary:active {
-  background-color: black !important;
-  border-color: black;
-  outline-color: black;
-}
-
-.btn-secondary.btn-square {
-  border: 1px solid #e0bc8c;
-  border-radius: 0;
-  padding: 10px 20px;
-  font-family: Baskerville, serif;
-  font-style: italic;
-  background-color: transparent;
-}
 
 a:link {
   color: black;
@@ -201,8 +150,13 @@ video {
 }
 
 @media screen and (min-width: 768px) {
-  .btn-primary {
-    font-size: 1.75em;
+  .nav-button {
+    background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:a='http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/' x='0px' y='0px' viewBox='0 0 108 50.7' style='enable-background:new 0 0 108 50.7;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:none;stroke:%23DBC2A5;stroke-miterlimit:10;%7D%0A%3C/style%3E%3Cdefs%3E%3C/defs%3E%3Cpath class='st0' d='M0.5,42.4c4.3,0,7.7,3.5,7.7,7.7h91.5c0-4.3,3.5-7.7,7.7-7.7V8.2c-4.3,0-7.7-3.5-7.7-7.7H8.2 c0,4.3-3.5,7.7-7.7,7.7V42.4z'/%3E%3C/svg%3E%0A");
+    width: 100%;
+  }
+  .nav-button:hover {
+    color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:a='http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/' x='0px' y='0px' viewBox='0 0 108 50.7' style='display: block; margin: auto;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23DBC2A5;stroke:%23000000;stroke-miterlimit:10;%7D%0A%3C/style%3E%3Cdefs%3E%3C/defs%3E%3Cpath class='st0' d='M0.5,42.4c4.3,0,7.7,3.5,7.7,7.7h91.5c0-4.3,3.5-7.7,7.7-7.7V8.2c-4.3,0-7.7-3.5-7.7-7.7H8.2 c0,4.3-3.5,7.7-7.7,7.7V42.4z'/%3E%3C/svg%3E ");
   }
   h1 {
     font-size: 3em !important;
@@ -231,6 +185,14 @@ video {
   #intro-video-window {
     display:none;
   }
+  .nav-button {
+       font-size: 2em;
+       background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:a='http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/' x='0px' y='0px' viewBox='0 0 108 50.7' style='' xml:space=''%3E%3Cstyle type='text/css'%3E .st0%7Bfill:none;stroke:%23DBC2A5;stroke-miterlimit:10;%7D%0A%3C/style%3E%3Cdefs%3E%3C/defs%3E%3Cpath class='st0' d='M0.5,42.4c4.3,0,7.7,3.5,7.7,7.7h91.5c0-4.3,3.5-7.7,7.7-7.7V8.2c-4.3,0-7.7-3.5-7.7-7.7H8.2 c0,4.3-3.5,7.7-7.7,7.7V42.4z'/%3E%3C/svg%3E ");
+  }
+  .nav-button:hover {
+       color: #000000;
+       background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:a='http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/' x='0px' y='0px' viewBox='0 0 108 50.7' style='display: block; margin: auto;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23DBC2A5;stroke:%23000000;stroke-miterlimit:10;%7D%0A%3C/style%3E%3Cdefs%3E%3C/defs%3E%3Cpath class='st0' d='M0.5,42.4c4.3,0,7.7,3.5,7.7,7.7h91.5c0-4.3,3.5-7.7,7.7-7.7V8.2c-4.3,0-7.7-3.5-7.7-7.7H8.2 c0,4.3-3.5,7.7-7.7,7.7V42.4z'/%3E%3C/svg%3E ");
+  }
 }
 
 blockquote::before {
@@ -243,6 +205,6 @@ blockquote::after {
 
 .social-icons a {
   font-size: 1.75em;
-  color: #e0bc8c;
+  color: #dbc2a5;
   padding: 5px;
 }
