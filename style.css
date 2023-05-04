@@ -119,7 +119,7 @@ ul {
 }
 
 .first-sentence-small-caps {
-  /*font-family: Baskerville, serif;*/ font-variant: small-caps;
+  /*font-family: Baskerville, serif;*/ text-transform: uppercase;
 }
 
 /*.drop-cap:first-letter {
