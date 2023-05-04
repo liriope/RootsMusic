@@ -102,14 +102,6 @@ p {
   line-height: 1.75em;
 }
 
-p:first-child {
-     text-indent: 0;
-}
-
-p:not(:first-child) {
-     text-indent: 2.5em;
-}
-
 ul {
   list-style-type: none;
   margin-left: 0em;
