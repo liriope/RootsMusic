@@ -189,6 +189,9 @@ video {
   top: 1em;
 }
 }
+.book-without-border {
+     display: none;
+}
 
 @media (max-width: 767px) {
   h1 {
@@ -203,6 +206,12 @@ video {
   }
   #intro-video-window {
     display:none;
+  }
+  .book-with-border {
+	  display: none;
+  }
+  .book-without-border {
+	  display: flex;
   }
   .nav-button {
        font-size: 2em;
