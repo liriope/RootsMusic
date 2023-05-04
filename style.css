@@ -172,7 +172,10 @@ video {
 
 @media (max-width: 767px) {
   h1 {
-    font-size: 1.75em !important;
+    font-size: 4em !important;
+  }
+  h2 {
+    font-size: 3em;
   }
   body {
     font-size: 18px;
