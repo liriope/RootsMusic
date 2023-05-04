@@ -48,6 +48,10 @@ body {
 
 .drop-cap {
   z-index: -10;
+  float: left;
+  margin-right: -10px;
+  width: 40%;
+  height: auto;
 }
 
 .main-index {
