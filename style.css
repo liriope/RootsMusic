@@ -66,10 +66,12 @@ h1 {
 }
 
 h2 {
-     font-family: Baskerville, serif;
-     font-size: 1.75em;
-     margin-bottom: 1em;
-     margin-top: 2em;
+	font-family: Baskerville, serif;
+	font-size: 1.75em;
+	margin-bottom: 1em;
+	margin-top: 2em;
+	margin-left: 1em;
+	margin-right: 0em;
 }
 
 h3 {
