@@ -76,6 +76,12 @@ h3 {
      font-variant: small-caps;
 }
 
+.h4 {
+	text-transform: uppercase;
+	font-family: Baskerville, serif;
+	font-size: 1em;
+}
+
 p {
      font-family: Trebuchet MS, sans-serif;
      font-size: 1em;
