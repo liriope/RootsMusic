@@ -54,6 +54,15 @@ body {
   height: auto;
 }
 
+.drop-cap-still {
+  z-index: -10;
+  float: left;
+  margin-right: 5px;
+  width: 40%;
+  height: auto;
+  display: none;
+}
+
 .main-index {
   z-index: 1;
 }
@@ -208,6 +217,9 @@ video {
 @media (max-width: 576px) {
 	.drop-cap {
 		display: none;
+	}
+	.drop-cap-still {
+		display: flex;
 	}
 }
 
