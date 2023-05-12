@@ -5,7 +5,7 @@ body {
   font-size: 16px;
   color: #dbc2a5
 }
-.aboutPageBody {
+.alternativeBody {
 	background-color: #dbc2a5 !important;
 	color: black !important;
 }
@@ -13,7 +13,7 @@ body {
   text-align: center;
   display: none;
 }
-#authorTitle {
+#altTitle {
   text-align: center;
   color: black !important;
 }
@@ -154,11 +154,11 @@ ul {
   background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:a='http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/' x='0px' y='0px' viewBox='0 0 108 50.7' style='' xml:space=''%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23DBC2A5;stroke:none;stroke-miterlimit:10;%7D%0A%3C/style%3E%3Cdefs%3E%3C/defs%3E%3Cpath class='st0' d='M0.5,42.4c4.3,0,7.7,3.5,7.7,7.7h91.5c0-4.3,3.5-7.7,7.7-7.7V8.2c-4.3,0-7.7-3.5-7.7-7.7H8.2 c0,4.3-3.5,7.7-7.7,7.7V42.4z'/%3E%3C/svg%3E ");
   color: #000000;
 }
-.author .nav-button {
+.altButton .nav-button {
 	background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:a='http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/' x='0px' y='0px' viewBox='0 0 108 50.7' style='' xml:space=''%3E%3Cstyle type='text/css'%3E .st0%7Bfill:transparent;stroke:%23000000;stroke-miterlimit:10;%7D%0A%3C/style%3E%3Cdefs%3E%3C/defs%3E%3Cpath class='st0' d='M0.5,42.4c4.3,0,7.7,3.5,7.7,7.7h91.5c0-4.3,3.5-7.7,7.7-7.7V8.2c-4.3,0-7.7-3.5-7.7-7.7H8.2 c0,4.3-3.5,7.7-7.7,7.7V42.4z'/%3E%3C/svg%3E ") !important;
 	color: black !important;
 }
-.author .nav-button:hover {
+.altButton .nav-button:hover {
 	background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:a='http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/' x='0px' y='0px' viewBox='0 0 108 50.7' style='' xml:space=''%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23000000;stroke:none;stroke-miterlimit:10;%7D%0A%3C/style%3E%3Cdefs%3E%3C/defs%3E%3Cpath class='st0' d='M0.5,42.4c4.3,0,7.7,3.5,7.7,7.7h91.5c0-4.3,3.5-7.7,7.7-7.7V8.2c-4.3,0-7.7-3.5-7.7-7.7H8.2 c0,4.3-3.5,7.7-7.7,7.7V42.4z'/%3E%3C/svg%3E ") !important;
      color: #DBC2A5 !important;
 }
@@ -176,7 +176,7 @@ ul {
   margin-left: .5em;
   height: auto;
 }
-.author .nav-button-secondary {
+.altButton .nav-button-secondary {
 	color: #dbc2a5 !important;
      background-color: #000000 !important;
 }
@@ -184,7 +184,7 @@ ul {
   color: #dbc2a5 !important;
   background-color: #000000 !important;
 }
-.author .nav-button-secondary:hover {
+.altButton .nav-button-secondary:hover {
 	color: #000000 !important;
      background-color: #dbc2a5 !important;
 }
@@ -225,7 +225,7 @@ figcaption {
 	font-size: 1.75em;
 	color: #dbc2a5;
 }
-.authorFooter .fa{
+.altFooter .fa{
 	color: black !important;
 }
 /* End Footer */
