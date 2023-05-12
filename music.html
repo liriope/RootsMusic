@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>The Coen Brothers and American Roots Music</title>
+	<title>The Music: The Coen Brothers & American Roots Music</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -14,109 +14,85 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="style.css">
+	<!-- JS -->
+	<script src="script.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
 	<!-- Header -->
 	<header>
 		<!-- Video Bumper -->
-		<div class="container" id="intro-video-window">
-			<div class="row my-5">
-				<div class="col my-5" style="background-color:none;">
-					<video autoplay muted loop id="intro-video"><source src="Main Title Website Video Bumper.mp4" type="video/mp4">Your browser does not support the video tag.
-					</video>
-				</div>
+		<!-- <div class="container-fluid sticky-top">
+			<div class="row justify-content-center">
+				<video autoplay muted loop id="introVideo"><source src="Main Title Website Video Bumper.mp4" type="video/mp4">Your browser does not support the video tag.
+				</video>
 			</div>
-		</div>
+		</div> -->
 		<!-- End Video Bumper -->
 		<!-- Title Text -->
-		<div class="container">
-			<div class="row" id="main-title-text">
-				<div class="col-md-10 mb-5" style="background-color:none;">
-					<a href="index.html"><h1><i><sup>The</sup></i><span style="font-family: Rosewood Std, serif"> Coen Brothers</span><i><br> & American Roots Music </i></h1></a>
+		<div class="container-fluid">
+			<div class="row justify-content-center" id="authorTitle">
+				<div class="col-md-10" style="background-color:none;">
+					<a href="index.html"><h1><i><sup>The</sup></i><span style="font-family: Rosewood Std, serif"> Coen Brothers</span><i><br> & American Roots Music</i></h1></a>
 				</div>
 			</div>
 		</div>
 		<!-- End Title Text -->
 		<!-- Menu Buttons -->
-		<div class="container">
-			<div class="row justify-content-md-center my-5">
+		<div class="container-fluid">
+			<div class="row justify-content-center mb-5">
 				<!-- "The Book" Page Button -->
-				<div class="col-lg-4 my-1">
-					<button onclick="window.location.href='index.html'" class="nav-button" role="button"><i><sup>The</sup> Book </i></button>
-				</div>
+				<button onclick="window.location.href='./index.html'" class="nav-button" role="button"> <i><sup>The</sup> Book</i></button>
 				<!-- "The Author" Page Button -->
-				<div class="col-lg-4 my-1">
-					<button onclick="window.location.href='about.html'" class="nav-button" role="button"><i><sup>The</sup> Author </i></button>
-				</div>
+				<button onclick="window.location.href='./about.html'" class="nav-button" role="button"><i><sup>The</sup> Author</i></button>
 				<!-- "The Music" Page Button -->
-				<div class="col-lg-4 my-1">
-					<button onclick="window.location.href='#musicPageStart'" class="nav-button" role="button"><i><sup>The</sup> Music </i></button>
-				</div>
+				<button onclick="window.location.href='#musicPageStart'" class="nav-button" role="button"><i><sup>The</sup> Music</i></button>
 			</div>
 		</div>
 		<!-- End Menu Buttons -->
 	</header>
 	<!-- End Header -->
-	<!-- Horizontal line -->
-	<div class="container">
-		<div class="row">
-			<div class="col">
-				<svg class=""></svg>
+	<!-- Main Section -->
+	<div class="container-fluid" id="musicPageStart">
+		<div class="row justify-content-start">
+			<div class="col-md-6 my-5">
+				<div class="sticky-div embed-responsive embed-responsive-16by9">
+					<iframe src="https://open.spotify.com/embed/playlist/4RbeIRYagmzBGlhqpNUIHa" width="100%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+				</div>
 			</div>
-		</div>
-	</div>
-	<!-- End Horizontal line -->
-	<!-- Quote 1 -->
-	<div class="container" id="#musicPageStart">
-		<div class="row justify-content-md-center my-5">
-			<div class="col-lg-6 my-5">
-				<p><video autoplay muted loop src="Larger Letter Gifs-R.mp4" class="drop-cap" type="video/mp4"></video><img src="Larger Letter Gifs-R.png" class="drop-cap-still"></img><span class="first-sentence-small-caps">ather than being</span> thought of as directors who include a lot of music, and often good music, in their films, the Coens should be properly regarded and celebrated as two of the most influential, devoted and thoughtful curators of American roots music in the history of cinema. The Coens’ curatorial impulse can be glimpsed in different ways. The brothers go to great lengths to present the roots music authentically on screen by casting real musicians in their films (often legendary ones), whose on-screen performances are captured live and in full rather than resorting to dubbing or lip-syncing in post-production, the standard Hollywood approach.
-				</p>
-				<p>One of the keys to understanding the role roots music plays in the films themselves lies in how it helps create and shape the Coens’ signature tone, which is a complex mixture of irony, sincerity, comedy and tragedy, lightness and darkness. Roots music is often employed to generate and orchestrate this defamiliarizing tone by presenting contradictory or paradoxical tones though lyrics, musical properties, and the music’s relationship to the action on screen.
-				</p>
-				<p>Their commitment even goes beyond the films. For both <i>O Brother, Where Art Thou?</i> and <i>Inside Llewyn Davis</i>, for example, they helped produce benefit concerts and albums that funded organizations devoted to keeping roots music alive and well in America. Their award-winning soundtracks have done much to revive and re-transit roots music to a new generation of listeners and have made substantial contributions to American culture.
-				</p>
-			</div>
-		</div>
-	</div>
-	<!-- End Quote -->
-	<!-- Spotify Playlist Embed -->
-	<div class="container">
-		<div class="row justify-content-md-center my-5">
-			<div class="col my-5">
-				<div class="embed-responsive embed-responsive-16by9">
-					<iframe src="https://open.spotify.com/embed/playlist/4RbeIRYagmzBGlhqpNUIHa" width="100%" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+			<div class="col-md-6 col-xl-4 text-block my-5">
+				<div class="row">
+					<div class="col">
+						<!-- Quote 1 -->
+						<p><video autoplay muted loop src="Larger Letter Gifs-R.mp4" class="drop-cap" type="video/mp4"></video><img src="Larger Letter Gifs-R.png" class="drop-cap-still"></img><span class="first-sentence-small-caps">ather than being</span> thought of as directors who include a lot of music, and often good music, in their films, the Coens should be properly regarded and celebrated as two of the most influential, devoted and thoughtful curators of American roots music in the history of cinema. The Coens’ curatorial impulse can be glimpsed in different ways. The brothers go to great lengths to present the roots music authentically on screen by casting real musicians in their films (often legendary ones), whose on-screen performances are captured live and in full rather than resorting to dubbing or lip-syncing in post-production, the standard Hollywood approach.
+						</p>
+						<p>One of the keys to understanding the role roots music plays in the films themselves lies in how it helps create and shape the Coens’ signature tone, which is a complex mixture of irony, sincerity, comedy and tragedy, lightness and darkness. Roots music is often employed to generate and orchestrate this defamiliarizing tone by presenting contradictory or paradoxical tones though lyrics, musical properties, and the music’s relationship to the action on screen.
+						</p>
+						<p>Their commitment even goes beyond the films. For both <i>O Brother, Where Art Thou?</i> and <i>Inside Llewyn Davis</i>, for example, they helped produce benefit concerts and albums that funded organizations devoted to keeping roots music alive and well in America. Their award-winning soundtracks have done much to revive and re-transit roots music to a new generation of listeners and have made substantial contributions to American culture.
+						</p>
+						<!-- End Quote 1 -->
+						<!-- Quote 2 -->
+						<p class="text-left"><span class="first-sentence-small-caps">I first became</span> interested in the Coens and American roots music when I saw <i>O Brother, Where Art Thou?</i> for the first time in 2000. I was an undergrad at Minnesota State University Moorhead, studying English literature. I remember there was a fierce blizzard that night, even by Minnesota standards, but a group of us decided to brave the elements to drive to the local multiplex cinema. I hadn’t heard anything about the film before seeing it, so I went into it with no expectations. I don’t think I was even aware that it was a Coen brothers film. There were lots of things to enjoy about the film, the deep south setting, the parallels to Homer’s <i>Odyssey</i>, the mad-cap comedy, but it was the music that put me in a state of rapture. I simply had not heard that kind of music so prominently included in a big-screen feature-film before. Bluegrass, blues, gospel, early rock and roll, early country–it presented an intoxicating melange of American traditional music. It was music that my parents had listened to, played, and appreciated, and so I inherited an appreciation for it, but I always regarded it as old, obscure music that nobody listened to or cared about anymore except maybe older folkies who grew up in the 1960’s, when folk music experienced a resurgence in popularity by the likes of Bob Dylan and many others. Nonetheless, here it was, old-timey American music on the big screen, being re-presented to a new generation of listeners, a rich treasure trove re-discovered, excavated from America’s musical and cultural attic. It had a real authenticity to it, a depth, a sincerity that felt refreshing in the context of the late 1990’s and early 2000’s, when American music culture was steeped in so much modern, popular music. As time went by, the Coens released more films, and I began to notice that they seemed to have a genuine, deep interest in American roots music in general, exploring different genres in different films. I always thought it would be fun and interesting to write a book about it.
+						</p>
+						<!-- End Quote 2 -->
+						<h3>— DR. JESSE ULMER, AUTHOR</h3>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- End Spotify Playlist Embed -->
-	<!-- American Roots Music Playlist and Long Description -->
-	<div class="container">
-		<div class="row justify-content-md-center my-5">
-			<div class="col-lg-6 my-5">
-				<p class="text-left"><span class="first-sentence-small-caps">I first became</span> interested in the Coens and American roots music when I saw <i>O Brother, Where Art Thou?</i> for the first time in 2000. I was an undergrad at Minnesota State University Moorhead, studying English literature. I remember there was a fierce blizzard that night, even by Minnesota standards, but a group of us decided to brave the elements to drive to the local multiplex cinema. I hadn’t heard anything about the film before seeing it, so I went into it with no expectations. I don’t think I was even aware that it was a Coen brothers film. There were lots of things to enjoy about the film, the deep south setting, the parallels to Homer’s <i>Odyssey</i>, the mad-cap comedy, but it was the music that put me in a state of rapture. I simply had not heard that kind of music so prominently included in a big-screen feature-film before. Bluegrass, blues, gospel, early rock and roll, early country–it presented an intoxicating melange of American traditional music. It was music that my parents had listened to, played, and appreciated, and so I inherited an appreciation for it, but I always regarded it as old, obscure music that nobody listened to or cared about anymore except maybe older folkies who grew up in the 1960’s, when folk music experienced a resurgence in popularity by the likes of Bob Dylan and many others. Nonetheless, here it was, old-timey American music on the big screen, being re-presented to a new generation of listeners, a rich treasure trove re-discovered, excavated from America’s musical and cultural attic. It had a real authenticity to it, a depth, a sincerity that felt refreshing in the context of the late 1990’s and early 2000’s, when American music culture was steeped in so much modern, popular music. As time went by, the Coens released more films, and I began to notice that they seemed to have a genuine, deep interest in American roots music in general, exploring different genres in different films. I always thought it would be fun and interesting to write a book about it.
-				</p>
-				<h3>— DR. JESSE ULMER, AUTHOR</h3>
-			</div>
-		</div>
-	</div>
+	<!-- End Main Section -->
 	<!-- Footer: Social Links -->
 	<footer>
-		<div class="row justify-content-center social-icons">
-			<div class="col-md-2 my-5 text-center">
-				<a href="https://twitter.com/ulmerjg" class="fa fa-twitter"></a>
-				<a href="https://facebook.com" class="fa fa-facebook"></a>
+		<div class="container-fluid">
+			<div class="row justify-content-end">
+				<div class="col-md-6 my-5 social">
+					<a href="https://twitter.com/ulmerjg" class="fa fa-twitter"></a>
+					<a href="https://facebook.com" class="fa fa-facebook"></a>
+					<a href="https://instagram.com" class="fa fa-instagram"></a>
+				</div>
 			</div>
 		</div>
-	</footer>
-	<!-- Bootstrap JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js">
-	</script>
-	<!-- Scroll to Div -->
-	<script>
-	function scrollToDiv(url) {
-		document.getElementById(url).scrollIntoView({ behavior: "smooth"});
-	}</script>
+		<!-- End Main Section -->
 </body>
 </html>
