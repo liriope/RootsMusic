@@ -52,7 +52,7 @@ p {
   margin-right: 0em;
 }
 .drop-cap {
-  z-index: -10;
+  z-index: 1;
   float: left;
   margin-right: 5px;
   margin-bottom: 5px;
@@ -82,6 +82,22 @@ p {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+.letter-F {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	mask-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:a='http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/' x='0px' y='0px' width='300px' height='300px' viewBox='0 0 300 300' style='enable-background:new 0 0 300 300;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:none;%7D%0A%3C/style%3E%3Cdefs%3E%3C/defs%3E%3Crect class='st0' width='300' height='300'/%3E%3Cpath d='M56.9,39.8l-12.7-2.4V0.8h182.3l29.5,39v95.5h-47.4l-25.1-33.4V87.1c0-13.9-4.8-21.5-11.9-21.5c-9.2,0-13.9,8.4-13.5,21.5 l0.4,9.2l41,51.3v33L158,181v47.4l26.7,35v35.8h-115l-25.5-33.4v-36.6l15.5-2.4c7.6-1.6,10.3-12.7,10.3-26.7V64.4 C70,46.1,64.4,40.6,56.9,39.8z'/%3E%3C/svg%3E%0A");
+	mask-repeat: no-repeat;
+	mask-size: cover;
+}
+.letter-F video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
 }
 .first-sentence-small-caps {
   /*font-family: Baskerville, serif;*/ text-transform: uppercase;
