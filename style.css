@@ -11,7 +11,6 @@ body {
 }
 #mainTitle {
   text-align: center;
-  display: none;
 }
 #altTitle {
   text-align: center;
@@ -160,8 +159,7 @@ ul {
 /* End Layout */
 
 /* Navigation */
-.menu {
-	justify-content: center;
+#navMenu {
 	opacity: 0;
 }
 .nav-button {
@@ -300,7 +298,7 @@ figcaption {
     padding-left: 3em;
     padding-right: 5em;
   }
-  .menu {
+  #navMenu {
     opacity: 1;
   }
   .nav-button {
