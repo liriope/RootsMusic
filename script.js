@@ -38,7 +38,7 @@ function fadeInMenu() {
 	var opacity = 0;
 
 	if (scrollTop < distanceToTop) {
-		opacity = 1 + (scrollTop - distanceToTop) / (elementHeight * 6);
+		opacity = 1 + (scrollTop - distanceToTop) / (elementHeight);
 	}
 
   if (scrollTop > distanceToTop) {
@@ -66,7 +66,7 @@ function fadeInPage() {
 	var opacity = 0;
 
 	if (scrollTop < distanceToTop) {
-		opacity = 2 + (scrollTop - distanceToTop) / (elementHeight / 15);
+		opacity = 1 + (scrollTop - distanceToTop) / (elementHeight / 10);
 	}
 
   if (scrollTop > distanceToTop) {
