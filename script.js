@@ -26,10 +26,7 @@ function fadeInMenu() {
   if (window.matchMedia('(max-width: 768px)').matches) {
     return; // Exit the function and skip execution
   }
-  var element = document.getElementById('navMenu');
-  // Calculates the vertical distance from the top of the document to the top edge of the specified element.
-  //window.pageYOffset retrieves the current vertical scroll position of the document. It represents the number of pixels that the document has been scrolled vertically from the top.
-  //element.getBoundingClientRect().top returns the distance between the top edge of the element and the top edge of the viewport, measured in pixels.
+  var element = document.getElementById('navigation');
   var distanceToTop = window.pageYOffset + element.getBoundingClientRect().top;
   var elementHeight = element.offsetHeight;
   // Retrieves the vertical scroll position of the document relative to the top of the viewport.
@@ -38,7 +35,7 @@ function fadeInMenu() {
 	var opacity = 0;
 
 	if (scrollTop < distanceToTop) {
-		opacity = 1 + (scrollTop - distanceToTop) / (elementHeight);
+		opacity = 1 + (scrollTop - (distanceToTop/1.75)) / (elementHeight);
 	}
 
   if (scrollTop > distanceToTop) {
@@ -58,7 +55,7 @@ function fadeInPage() {
   if (window.matchMedia('(max-width: 768px)').matches) {
     return; // Exit the function and skip execution
   }
-  var element = document.getElementById('indexPageStart');
+  var element = document.getElementById('index-page-start');
   var distanceToTop = window.pageYOffset + element.getBoundingClientRect().top;
   var elementHeight = element.offsetHeight;
 	var scrollTop = document.documentElement.scrollTop;
@@ -66,7 +63,7 @@ function fadeInPage() {
 	var opacity = 0;
 
 	if (scrollTop < distanceToTop) {
-		opacity = 1 + (scrollTop - distanceToTop) / (elementHeight / 10);
+		opacity = 1 + (scrollTop - distanceToTop) / (elementHeight/ 10);
 	}
 
   if (scrollTop > distanceToTop) {
